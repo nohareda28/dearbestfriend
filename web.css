@@ -1,0 +1,18 @@
+body { font-family: 'Quicksand', sans-serif; background-color: #e6f7ff;color: #d00000;text-align: center;padding: 50px;position: relative; overflow: hidden;}
+h1 {font-family: 'pacifico', cursive; font-size: 3em; margin-bottom: 0.5em; color: #b30000;}
+p {font-size: 1.5em; margin-bottom: 1em}
+.message {background-color: #fff; padding: 20px;border-radius: 15px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1) ;color: #d00000;}
+.heart {color: #ff3e4d;font-size: 4em;}
+footer {margin-top: 20px; font-size: 1em;color: #888;}
+.sparkle {position: absolute;width: 10px;height: 10px;background: radial-gradient(circle,#ff3e4d 30%, transparent 50%); border-radius: 50%; animation: sparkle 2s infinite;}
+@keyframes sparkle {
+    0%, 100% {transform: scale(0);}
+    50% {transform: scale(1);}
+    100% {transform: scale(1);}
+}
+.sparkle:nth-child(1) {left:10%;top: 20%;animation-delay: 0s;}
+.sparkle:nth-child(2) {left:50%;top: 10%;animation-delay: 0.5s;}
+.sparkle:nth-child(3) {left:90%;top: 30%;animation-delay: 1s;}
+.sparkle:nth-child(4) {left:30%;top: 70%;animation-delay: 1.5s;}
+.sparkle:nth-child(5) {left:70%;top: 80%;animation-delay: 2s;}
+.chritmas-tree {margin-top: 20px;}
